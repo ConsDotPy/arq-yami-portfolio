@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { nanoid } from "nanoid";
+import SectionHeading from "../Structural/SectionHeading";
 
 const timelineItems = [
   {
@@ -35,21 +36,13 @@ const Timeline = () => {
   return (
     <article className="max-w-7xl mx-auto ">
       {/* Heading */}
-      <section className="max-w-prose mx-auto text-center">
-        <h2>
-          <span className="block text-base text-blue-600 font-semibold tracking-wide uppercase sm:text-lg">
-            Education & Experience
-          </span>
-          <span className="mt-2 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Project Timeline
-          </span>
-        </h2>
-        <p className="mt-6 text-lg font-medium text-gray-400 leading-8">
-          Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
+      <SectionHeading
+        preText="Education & Experience"
+        title="Project Timeline"
+        description="Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
           arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-          feugiat egestas ac.
-        </p>
-      </section>
+          feugiat egestas ac."
+      />
 
       {/* Timeline */}
       <section className="relative mt-8">
