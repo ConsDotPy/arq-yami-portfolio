@@ -1,3 +1,4 @@
+import ContactForm from "../components/home/ContactForm";
 import Timeline from "../components/home/Timeline";
 import MainLayout from "../layouts/MainLayout";
 
@@ -10,7 +11,8 @@ export default function Home() {
   return (
     <MainLayout meta={meta}>
       <h1>Max Pozen Portfolio</h1>
-      <Timeline />
+      {/* <Timeline /> */}
+      <ContactForm />
     </MainLayout>
   );
 }
