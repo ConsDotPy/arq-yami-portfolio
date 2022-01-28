@@ -6,7 +6,7 @@ const ProjectPageLayout = ({ children, meta }) => {
 
   return (
     <PageContainer page={page} desc={desc} img={img} type={type} date={date}>
-      <main className="relative max-w-7xl mx-auto px-6 my-24">
+      <main className="relative max-w-7xl mx-auto px-6 my-12 lg:my-24">
         <ProjectPost>{children}</ProjectPost>
       </main>
     </PageContainer>

@@ -2,7 +2,7 @@ import SectionHeading from "../Structural/SectionHeading";
 
 const ContactForm = () => {
   return (
-    <article className="max-w-5xl mx-auto mt-28">
+    <article className="max-w-5xl mx-auto mt-16 md:mt-20 lg:mt-28">
       {/* Heading */}
       <SectionHeading
         preText="Contact Me"
@@ -13,12 +13,12 @@ const ContactForm = () => {
       />
 
       {/* Form */}
-      <form className="flex justify-around flex-wrap space-y-8 mt-6">
+      <form className="flex justify-around flex-wrap space-y-8 mt-6 px-6 md:px-0">
         {/* Name */}
         <label htmlFor="name" className="sr-only">
           Name
         </label>
-        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-5/12">
+        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-full md:w-5/12">
           <input
             type="text"
             name="name"
@@ -32,7 +32,7 @@ const ContactForm = () => {
         <label htmlFor="company" className="sr-only">
           Company
         </label>
-        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-5/12">
+        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-full md:w-5/12">
           <input
             type="text"
             name="company"
@@ -45,7 +45,7 @@ const ContactForm = () => {
         <label htmlFor="email" className="sr-only">
           Email
         </label>
-        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-5/12">
+        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-full md:w-5/12">
           <input
             type="email"
             name="email"
@@ -59,7 +59,7 @@ const ContactForm = () => {
         <label htmlFor="phone" className="sr-only">
           Phone
         </label>
-        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-5/12">
+        <div className="mt-1 border-b border-gray-200 focus-within:border-blue-600 w-full md:w-5/12">
           <input
             type="tel"
             name="phone"

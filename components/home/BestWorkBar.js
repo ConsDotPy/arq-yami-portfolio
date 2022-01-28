@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BestWorkBar = () => {
   return (
-    <section className="relative mt-28">
+    <section className="relative mt-16 md:mt-20 lg:mt-28">
       <div
         className="hidden absolute top-0 inset-x-0 h-1/2 lg:block"
         aria-hidden="true"

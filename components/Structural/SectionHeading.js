@@ -1,6 +1,6 @@
 const SectionHeading = ({ preText, title, description }) => {
   return (
-    <section className="max-w-prose mx-auto text-center">
+    <section className="max-w-prose px-6 mx-auto text-center">
       <h2>
         <span className="block text-base text-blue-600 font-semibold tracking-wide uppercase sm:text-lg">
           {preText}

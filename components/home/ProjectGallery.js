@@ -4,7 +4,7 @@ import SectionHeading from "../Structural/SectionHeading";
 
 const ProjectGallery = () => {
   return (
-    <article className="max-w-7xl mx-auto mt-28">
+    <article className="max-w-7xl mx-auto mt-16 md:mt-20 lg:mt-28">
       {/* Heading */}
       <SectionHeading
         preText="Project Portfolio"
@@ -17,7 +17,7 @@ const ProjectGallery = () => {
       {/* Gallery Grid */}
       <section className="relative mt-8 grid grid-cols-4 gap-5 p-5">
         <Link href="/projects/tsk">
-          <a className="galleryImageContainer row-span-2">
+          <a className="galleryImageContainer col-span-2 row-span-2 md:col-auto">
             <Image
               src="/static/images/temp/1.jpg"
               alt="TSK"
@@ -30,7 +30,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="galleryImageContainer">
+          <a className="galleryImageContainer col-span-2 md:col-auto">
             <Image
               src="/static/images/temp/2.jpg"
               alt="TSK"
@@ -56,7 +56,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="galleryImageContainer">
+          <a className="galleryImageContainer col-span-2 md:col-auto">
             <Image
               src="/static/images/temp/4.jpg"
               alt="TSK"
@@ -68,7 +68,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="galleryImageContainer col-span-3">
+          <a className="galleryImageContainer col-span-4 md:col-span-3">
             <Image
               src="/static/images/temp/5.jpg"
               alt="TSK"
@@ -80,7 +80,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="galleryImageContainer col-span-1">
+          <a className="galleryImageContainer col-span-2 md:col-span-1">
             <Image
               src="/static/images/temp/6.jpg"
               alt="TSK"
@@ -92,7 +92,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="galleryImageContainer col-span-1">
+          <a className="galleryImageContainer col-span-2 md:col-span-1">
             <Image
               src="/static/images/temp/7.jpg"
               alt="TSK"
@@ -104,7 +104,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="galleryImageContainer col-span-2">
+          <a className="galleryImageContainer col-span-3 md:col-span-2 lg:col-span-3">
             <Image
               src="/static/images/temp/8.jpg"
               alt="TSK"
