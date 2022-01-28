@@ -12,7 +12,7 @@ export default function Home() {
     <MainLayout meta={meta}>
       <h1>Max Pozen Portfolio</h1>
       {/* <Timeline /> */}
-      <ContactForm />
+      {/* <ContactForm /> */}
     </MainLayout>
   );
 }
