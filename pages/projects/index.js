@@ -1,6 +1,7 @@
 import MainLayout from "../../layouts/MainLayout";
+import ProjectGallery from "../../components/home/ProjectGallery";
 
-const ProjectGallery = () => {
+const ProjectGalleryPage = () => {
   const meta = {
     page: "Projects",
     desc: "TSK",
@@ -14,4 +15,4 @@ const ProjectGallery = () => {
   );
 };
 
-export default ProjectGallery;
+export default ProjectGalleryPage;
