@@ -17,7 +17,7 @@ const ProjectGallery = () => {
       {/* Gallery Grid */}
       <section className="relative mt-8 grid grid-cols-4 gap-5 p-5">
         <Link href="/projects/tsk">
-          <a className="shadow-lg rounded-lg relative aspect-w-10 aspect-h-7 row-span-2 focus-within:ring-2 focus-within:ring-offset-4 focus-within:ring-offset-gray-100 focus-within:ring-blue-500">
+          <a className="galleryImageContainer row-span-2">
             <Image
               src="/static/images/temp/1.jpg"
               alt="TSK"
@@ -25,11 +25,12 @@ const ProjectGallery = () => {
               objectFit="cover"
               objectPosition="center"
               className="rounded-lg"
+              priority
             />
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7">
+          <a className="galleryImageContainer">
             <Image
               src="/static/images/temp/2.jpg"
               alt="TSK"
@@ -37,11 +38,12 @@ const ProjectGallery = () => {
               objectFit="cover"
               objectPosition="center"
               className="rounded-lg"
+              priority
             />
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7 row-span-2 col-span-2">
+          <a className="galleryImageContainer row-span-2 col-span-2">
             <Image
               src="/static/images/temp/3.jpg"
               alt="TSK"
@@ -49,11 +51,12 @@ const ProjectGallery = () => {
               objectFit="cover"
               objectPosition="center"
               className="rounded-lg"
+              priority
             />
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7">
+          <a className="galleryImageContainer">
             <Image
               src="/static/images/temp/4.jpg"
               alt="TSK"
@@ -65,7 +68,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7 col-span-3">
+          <a className="galleryImageContainer col-span-3">
             <Image
               src="/static/images/temp/5.jpg"
               alt="TSK"
@@ -77,7 +80,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7 col-span-1">
+          <a className="galleryImageContainer col-span-1">
             <Image
               src="/static/images/temp/6.jpg"
               alt="TSK"
@@ -89,7 +92,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7 col-span-1">
+          <a className="galleryImageContainer col-span-1">
             <Image
               src="/static/images/temp/7.jpg"
               alt="TSK"
@@ -101,7 +104,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7 col-span-2">
+          <a className="galleryImageContainer col-span-2">
             <Image
               src="/static/images/temp/8.jpg"
               alt="TSK"
@@ -113,7 +116,7 @@ const ProjectGallery = () => {
           </a>
         </Link>
         <Link href="/projects/tsk">
-          <a className="shadow-lg relative aspect-w-10 aspect-h-7 col-span-1">
+          <a className="galleryImageContainer col-span-1">
             <Image
               src="/static/images/temp/9.jpg"
               alt="TSK"

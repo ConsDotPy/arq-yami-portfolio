@@ -8,7 +8,8 @@ const ProjectGallery = () => {
 
   return (
     <MainLayout meta={meta}>
-      <h1>All Projects TSK</h1>
+      <h1>Under Construction</h1>
+      <ProjectGallery />
     </MainLayout>
   );
 };

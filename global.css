@@ -9,4 +9,7 @@
 }
 
 @layer utilities {
+  .galleryImageContainer {
+    @apply shadow-lg rounded-lg relative aspect-w-10 aspect-h-7 focus-within:ring-2 focus-within:ring-offset-4 focus-within:ring-offset-gray-100 focus-within:ring-blue-500 hover:scale-105 focus:scale-105 focus:shadow-xl hover:shadow-xl transition-all duration-500;
+  }
 }
