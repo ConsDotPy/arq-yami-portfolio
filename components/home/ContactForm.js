@@ -2,7 +2,7 @@ import SectionHeading from "../Structural/SectionHeading";
 
 const ContactForm = () => {
   return (
-    <article className="max-w-5xl mx-auto">
+    <article className="max-w-5xl mx-auto mt-28">
       {/* Heading */}
       <SectionHeading
         preText="Contact Me"
@@ -83,7 +83,7 @@ const ContactForm = () => {
         ></textarea>
 
         {/* Submit Btn */}
-        <button className="bg-blue-700 hover:bg-blue-900 mx-auto shadow-md hover:shadow-lg active:shadow-sm active:bg-blue-600 focus:bg-blue-900 focus:shadow-lg px-6 py-4 font-semibold text-gray-50 rounded-3xl">
+        <button className="bg-blue-700 hover:bg-blue-900 mx-auto shadow-md hover:shadow-lg active:shadow-sm active:bg-blue-600 focus:bg-blue-900 focus:shadow-lg px-8 py-4 text-lg font-semibold text-gray-50 rounded-3xl">
           Send Message
         </button>
       </form>

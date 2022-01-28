@@ -34,7 +34,7 @@ const timelineItems = [
 
 const Timeline = () => {
   return (
-    <article className="max-w-7xl mx-auto ">
+    <article className="max-w-7xl mx-auto mt-28">
       {/* Heading */}
       <SectionHeading
         preText="Education & Experience"
