@@ -2,6 +2,7 @@
 2. Scrollbar
 3. Contact Form should work
 4. Some sort of navigation (arrows, bar) for a single blog post to take back to home
+5. Lighthouse
 
 ---
 

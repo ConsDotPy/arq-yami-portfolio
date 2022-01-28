@@ -4,13 +4,22 @@ import SectionHeading from "../Structural/SectionHeading";
 
 const timelineItems = [
   {
-    title: "Graduate Student",
+    title: "Architecture Graduate Student",
     location: "UIUC | Champaign, IL",
     startDate: "January 2016",
     endDate: "January 2020",
     description:
       "We thrive because of our best-in-class stack and proactive game changer culture. So we can hit the ground running, we will be intelligently incentivizing every stakeholder in our space.",
     href: "https://illinois.edu/",
+  },
+  {
+    title: "Architectural Internship",
+    location: "StudioGC | Chicago, IL",
+    startDate: "June 2020",
+    endDate: "September 2020",
+    description:
+      "Reliably leveraging conservatively mission critical architectures is crucial to our innovative low hanging fruit. Going forward, our long-term prince2 practitioner will deliver value to drivers.",
+    href: "https://www.studiogc.com/about/_careers/",
   },
   {
     title: "Masters Student",
@@ -22,13 +31,13 @@ const timelineItems = [
     href: "https://wustl.edu/",
   },
   {
-    title: "TSK Internship",
-    location: "Unknown",
-    startDate: "January 2018",
-    endDate: "July 2021",
+    title: "Architecture Internship",
+    location: "Kiku Obata & Company",
+    startDate: "May 2021",
+    endDate: "March 2022",
     description:
       "Reliably leveraging conservatively mission critical architectures is crucial to our innovative low hanging fruit. Going forward, our long-term prince2 practitioner will deliver value to drivers.",
-    href: "https://google.com",
+    href: "https://kikuobata.com/",
   },
 ];
 

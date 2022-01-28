@@ -1,27 +1,27 @@
 const metrics = [
   {
     id: 1,
-    stat: "8K+",
-    emphasis: "Companies",
-    rest: "use laoreet amet lacus nibh integer quis.",
+    stat: "Location",
+    emphasis: "Chicago, Illinois",
+    rest: "is blah use laoreet amet lacus nibh integer quis.",
   },
   {
     id: 2,
-    stat: "25K+",
-    emphasis: "Countries around the globe",
-    rest: "lacus nibh integer quis.",
+    stat: "Hobbies",
+    emphasis: "Traveling",
+    rest: "to blah lacus nibh integer quis.",
   },
   {
     id: 3,
-    stat: "98%",
-    emphasis: "Customer satisfaction",
+    stat: "Philosophy",
+    emphasis: "Eco-friendly design",
     rest: "laoreet amet lacus nibh integer quis.",
   },
   {
     id: 4,
-    stat: "12M+",
-    emphasis: "Issues resolved",
-    rest: "lacus nibh integer quis.",
+    stat: "Skills",
+    emphasis: "Architectural Design,",
+    rest: "time managment,tsk . . .",
   },
 ];
 
@@ -49,7 +49,7 @@ const ShortBio = () => {
             About Me
           </h2>
           <p className="mt-3 text-3xl font-extrabold text-white">
-            Get actionable data that will help grow your business
+            A brief introduction into who I am
           </p>
           <p className="mt-5 text-lg text-gray-300">
             Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing
