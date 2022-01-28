@@ -28,7 +28,7 @@ const Hero = () => {
           Good Honest Architecture
         </h1>
         <p className="mt-4 text-xl text-white">
-          Hey, I'm Max. Glad you could stop by my website . . . Lorem ipsum
+          Hey, I&apos;m Max. Glad you could stop by my website . . . Lorem ipsum
           dolor sit amet consectetur adipisicing elit. Veritatis, iste. Lorem
           ipsum dolor sit, amet consectetur adipisicing.
         </p>
