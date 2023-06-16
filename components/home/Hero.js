@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -28,9 +28,10 @@ const Hero = () => {
           Good Honest Architecture
         </h1>
         <p className="mt-4 text-xl text-white">
-          Hey, I&apos;m Max. Glad you could stop by my website . . . Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Veritatis, iste. Lorem
-          ipsum dolor sit, amet consectetur adipisicing.
+          Hey, I&apos;m Max. Glad you could stop by my website . . . I&apos;m a
+          licensed architect with a passion for design and a love of technology.
+          I&apos;m always looking for new opportunities and challenges, so feel
+          free to reach out if you&apos;d like to work together.
         </p>
         <Link href="/projects">
           <a className="mt-8 inline-block bg-white border border-transparent rounded-md py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100">

@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const BestWorkBar = () => {
   return (
@@ -19,7 +19,7 @@ const BestWorkBar = () => {
               <div className="relative shadow-2xl aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
                 <Image
                   src="/static/images/temp/1.jpg"
-                  alt="TSK"
+                  alt=""
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -109,9 +109,9 @@ const BestWorkBar = () => {
                 My most recent work
               </h2>
               <p className="text-lg text-white">
-                Varius facilisi mauris sed sit. Non sed et duis dui leo,
-                vulputate id malesuada non. Cras aliquet purus dui laoreet diam
-                sed lacus, fames.
+                I am currently working on a new project that I am very excited
+                about! If you are interested in learning more about it, please
+                click the button below.
               </p>
               <Link href="/projects/tsk">
                 <a className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-blue-700 hover:bg-gray-50 sm:inline-block sm:w-auto">

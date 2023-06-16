@@ -1,6 +1,6 @@
-import Footer from "../components/Structural/Footer";
-import Header from "../components/Structural/Header";
-import PageContainer from "../components/Structural/PageContainer";
+import Footer from '../components/Structural/Footer';
+import Header from '../components/Structural/Header';
+import PageContainer from '../components/Structural/PageContainer';
 
 const MainLayout = ({ children, meta }) => {
   const { page, desc, img, type } = meta;
@@ -8,7 +8,7 @@ const MainLayout = ({ children, meta }) => {
   return (
     <PageContainer page={page} desc={desc} img={img} type={type}>
       <Header />
-      <main className="tsk">{children}</main>
+      <main className="">{children}</main>
       <Footer />
     </PageContainer>
   );

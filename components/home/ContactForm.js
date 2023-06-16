@@ -1,4 +1,4 @@
-import SectionHeading from "../Structural/SectionHeading";
+import SectionHeading from '../Structural/SectionHeading';
 
 const ContactForm = () => {
   return (
@@ -7,9 +7,7 @@ const ContactForm = () => {
       <SectionHeading
         preText="Contact Me"
         title="Want to Get in Touch?"
-        description="Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-          arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-          feugiat egestas ac."
+        description="Feel free to reach out if you have any questions or want to work together. I'm always open to new opportunities and challenges."
       />
 
       {/* Form */}
@@ -83,7 +81,7 @@ const ContactForm = () => {
         ></textarea>
 
         {/* Submit Btn */}
-        <button className="bg-blue-700 hover:bg-blue-900 mx-auto shadow-md hover:shadow-lg active:shadow-sm active:bg-blue-600 focus:bg-blue-900 focus:shadow-lg px-8 py-4 text-lg font-semibold text-gray-50 rounded-3xl">
+        <button className="bg-blue-700 hocus:bg-blue-900 transition-colors duration-300 ease-in-out mx-auto shadow-md hover:shadow-lg active:shadow-sm active:bg-blue-600 focus:bg-blue-900 focus:shadow-lg px-8 py-4 text-lg font-semibold text-gray-50 rounded-lg block w-full">
           Send Message
         </button>
       </form>

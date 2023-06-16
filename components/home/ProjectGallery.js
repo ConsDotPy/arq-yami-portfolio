@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import SectionHeading from "../Structural/SectionHeading";
+import Image from 'next/image';
+import Link from 'next/link';
+import SectionHeading from '../Structural/SectionHeading';
 
 const ProjectGallery = () => {
   return (
@@ -9,9 +9,7 @@ const ProjectGallery = () => {
       <SectionHeading
         preText="Project Portfolio"
         title="How I See the World"
-        description="Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-		    arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-		    feugiat egestas ac."
+        description="I love to travel and explore new places. Here are some of my favorite photos from my adventures. I hope you enjoy them!"
       />
 
       {/* Gallery Grid */}

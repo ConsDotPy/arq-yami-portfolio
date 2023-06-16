@@ -108,20 +108,18 @@ const ProjectPost = () => {
         <div className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="block text-base text-center text-blue-600 font-semibold tracking-wide uppercase">
-              Introducing
+              Projects
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              JavaScript for Beginners
+              Under Construction
             </span>
           </h1>
-          <p className="mt-8 text-xl text-gray-500 leading-8">
-            Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-            arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-            feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
-            Eleifend egestas fringilla sapien.
+          <p className="mt-8 text-xl text-center text-gray-500 leading-8">
+            I&apos;m currently working on this page. Please check back soon.
           </p>
         </div>
-        <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+
+        {/* <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <p>
             Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong>{" "}
             sed <strong>eget risus enim</strong>. Mattis mauris semper sed amet
@@ -193,7 +191,7 @@ const ProjectPost = () => {
             praesent donec est. Odio penatibus risus viverra tellus varius sit
             neque erat velit.
           </p>
-        </div>
+        </div> */}
       </div>
     </article>
   );

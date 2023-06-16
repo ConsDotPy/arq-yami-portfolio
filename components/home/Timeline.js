@@ -1,43 +1,43 @@
-import Link from "next/link";
-import { nanoid } from "nanoid";
-import SectionHeading from "../Structural/SectionHeading";
+import Link from 'next/link';
+import { nanoid } from 'nanoid';
+import SectionHeading from '../Structural/SectionHeading';
 
 const timelineItems = [
   {
-    title: "Architecture Graduate Student",
-    location: "UIUC | Champaign, IL",
-    startDate: "January 2016",
-    endDate: "January 2020",
+    title: 'Architecture Graduate Student',
+    location: 'UIUC | Champaign, IL',
+    startDate: 'January 2016',
+    endDate: 'January 2020',
     description:
-      "We thrive because of our best-in-class stack and proactive game changer culture. So we can hit the ground running, we will be intelligently incentivizing every stakeholder in our space.",
-    href: "https://illinois.edu/",
+      'We thrive because of our best-in-class stack and proactive game changer culture. So we can hit the ground running, we will be intelligently incentivizing every stakeholder in our space.',
+    href: 'https://illinois.edu/',
   },
   {
-    title: "Architectural Internship",
-    location: "StudioGC | Chicago, IL",
-    startDate: "June 2020",
-    endDate: "September 2020",
+    title: 'Architectural Internship',
+    location: 'StudioGC | Chicago, IL',
+    startDate: 'June 2020',
+    endDate: 'September 2020',
     description:
-      "Reliably leveraging conservatively mission critical architectures is crucial to our innovative low hanging fruit. Going forward, our long-term prince2 practitioner will deliver value to drivers.",
-    href: "https://www.studiogc.com/about/_careers/",
+      'Reliably leveraging conservatively mission critical architectures is crucial to our innovative low hanging fruit. Going forward, our long-term prince2 practitioner will deliver value to drivers.',
+    href: 'https://www.studiogc.com/about/_careers/',
   },
   {
-    title: "Masters Student",
-    location: "WashU | St. Louis, MO",
-    startDate: "July 2020",
-    endDate: "December, 2022",
+    title: 'Masters Student',
+    location: 'WashU | St. Louis, MO',
+    startDate: 'July 2020',
+    endDate: 'December, 2022',
     description:
-      "Wholesale team players are becoming unparalleled deliverable experts. We thrive because of our seamless capability and best-of-breed paradigm shift culture.",
-    href: "https://wustl.edu/",
+      'Wholesale team players are becoming unparalleled deliverable experts. We thrive because of our seamless capability and best-of-breed paradigm shift culture.',
+    href: 'https://wustl.edu/',
   },
   {
-    title: "Architecture Internship",
-    location: "Kiku Obata & Company",
-    startDate: "May 2021",
-    endDate: "March 2022",
+    title: 'Architecture Internship',
+    location: 'Kiku Obata & Company',
+    startDate: 'May 2021',
+    endDate: 'March 2022',
     description:
-      "Reliably leveraging conservatively mission critical architectures is crucial to our innovative low hanging fruit. Going forward, our long-term prince2 practitioner will deliver value to drivers.",
-    href: "https://kikuobata.com/",
+      'Reliably leveraging conservatively mission critical architectures is crucial to our innovative low hanging fruit. Going forward, our long-term prince2 practitioner will deliver value to drivers.',
+    href: 'https://kikuobata.com/',
   },
 ];
 
@@ -48,9 +48,7 @@ const Timeline = () => {
       <SectionHeading
         preText="Education & Experience"
         title="Project Timeline"
-        description="Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-          arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-          feugiat egestas ac."
+        description="Here is a timeline of my education and experience in the field of architecture. I have been fortunate to have worked with some amazing people and companies."
       />
 
       {/* Timeline */}
@@ -80,7 +78,7 @@ const Timeline = () => {
                     <p className="text-sm sm:text-base text-gray-600 mt-2 mb-4">
                       {item.description}
                     </p>
-                    {item.href.charAt(0) === "h" ? (
+                    {item.href.charAt(0) === 'h' ? (
                       <a
                         className="text-xs sm:text-sm text-gray-800 italic px-3 py-2 bg-gray-50 rounded-md transition-colors hover:bg-gray-800 hover:text-white"
                         href={item.href}
@@ -115,7 +113,7 @@ const Timeline = () => {
                     <p className="text-gray-600 mt-2 mb-4">
                       {item.description}
                     </p>
-                    {item.href.charAt(0) === "h" ? (
+                    {item.href.charAt(0) === 'h' ? (
                       <a
                         className="text-sm text-gray-800 italic px-3 py-2 bg-gray-50 rounded-md transition-colors hover:bg-gray-800 hover:text-white"
                         href={item.href}
