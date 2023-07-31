@@ -54,7 +54,7 @@ jobs:
 
       # release info is now in master so we can continue as before
       - name: create release with last commit
-        uses: actions/create-release@v1.10.0
+        uses: actions/create-release@v1.1.4
         if: steps.changelog.outputs.skipped == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
