@@ -35,8 +35,8 @@ const ShortBio = () => {
           <div className="h-full xl:relative xl:col-start-2">
             <div className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0">
               <Image
-                src="/static/images/Max_Profile.png"
-                alt="Max Pozen professional portrait"
+                src="/static/images/yami-profile.jpg"
+                alt="Yami May professional portrait"
                 layout="fill"
                 objectPosition="center"
                 objectFit="cover"

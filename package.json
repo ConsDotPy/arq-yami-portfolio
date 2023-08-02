@@ -1,6 +1,6 @@
 {
   "version": "0.0.4",
-  "name": "max-pozen_portfolio",
+  "name": "arq-yami-portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,9 +15,9 @@
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.0",
     "nanoid": "^3.2.0",
-    "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
